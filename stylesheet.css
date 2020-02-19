@@ -1,0 +1,60 @@
+body {
+    background-color: darkslategrey;
+}
+
+/* INDEX PAGE CSS */
+.container-1{
+    display:flex;
+}
+.image-1 {
+    flex:1;
+}
+.image-1 img{
+    border-bottom-right-radius: 50%;
+    max-width: 960px;
+    max-height:640px;
+    width:100%;
+    height:100%;
+}
+.links {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+.link-1{
+    flex:1;
+    background-image: url("images/besiktning_background.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    opacity:1.0;
+}
+.link-2{
+    flex:1;
+    background-image: url("images/brota_background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    opacity: 1.0;
+}
+.link-1 a, .link-2 a{
+    display:inline-flex;
+    align-items: center;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 50px;
+}
+.link-1 p, .link-2 p {
+    margin:0 auto;
+}
+.link-1:hover, .link-2:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+/* COPYRIGHT : ALL IMAGES ARE ALLOWED FOR NON COMMERCIAL USE */
+/* INDEX BACKGROUND : https://upload.wikimedia.org/wikipedia/commons/d/dd/Royal_garden_khaplu_palace_in_autumn.jpg */
+/* BROTA IMAGE : https://live.staticflickr.com/2217/2327326381_814b4800f1_b.jpg */
+/* BESIKTNING IMAGE : https://cdn.pixabay.com/photo/2016/06/03/15/09/plumbing-1433606_960_720.jpg */
